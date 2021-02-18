@@ -55,4 +55,7 @@ methods:{
 }
 </script>
 <style scoped>
+.content{
+  width: 100%;
+}
 </style>

@@ -90,7 +90,7 @@ export default {
  activated() {
    this.$refs.scroll.sc.scrollTo(0,this.saveY,0);
   //  刷新防止scroll卡顿
-   this.$refs.scroll.refresh()
+   this.$refs.scroll.refresh();
  },
  deactivated() {
    this.saveY=this.$refs.scroll.saveY();
