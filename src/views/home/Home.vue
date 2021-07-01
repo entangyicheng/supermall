@@ -157,7 +157,7 @@ export default {
 #home {
  /* padding-top: 44px; */
  padding-bottom: 49px;
- height: 100vh;
+ height:calc(100vh - 49px);
  position: relative;
 }
 .home-nav {

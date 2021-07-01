@@ -1,6 +1,6 @@
 <template>
  <div id="app">
-  <tab-bar-content></tab-bar-content>
+  <tab-bar-content class="content"></tab-bar-content>
  </div>
 </template>
 <script>
@@ -11,5 +11,6 @@ export default {
 };
 </script>
 <style>
-@import 'assets/css/base.css'
+@import 'assets/css/base.css';
+
 </style>
